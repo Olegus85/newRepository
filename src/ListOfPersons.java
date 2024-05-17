@@ -14,14 +14,14 @@ public class ListOfPersons {
 
     public static void main(String[] args) {
         Random random = new Random();
-        random.nextInt(3,65);
-        Person person1 =new Person("Алёна", random.nextInt(3,65));
-        Person person2 =new Person("Женя", random.nextInt(3,65));
-        Person person3 =new Person("Таня", random.nextInt(3,65));
-        Person person4 =new Person("Костя", random.nextInt(3,65));
-        Person person5 =new Person("Евгений", random.nextInt(3,65));
+        random.nextInt(3, 65);
+        Person person1 = new Person("РђР»С‘РЅР°", random.nextInt(3, 65));
+        Person person2 = new Person("Р–РµРЅСЏ", random.nextInt(3, 65));
+        Person person3 = new Person("РўР°РЅСЏ", random.nextInt(3, 65));
+        Person person4 = new Person("РљРѕСЃС‚СЏ", random.nextInt(3, 65));
+        Person person5 = new Person("Р•РІРіРµРЅРёР№", random.nextInt(3, 65));
         Person person6 = new Person();
-        person6.setName("Вася");
+        person6.setName("Р’Р°СЃСЏ");
         person6.setAge(60);
 
         List<Person> personList = new ArrayList<>();
@@ -68,13 +68,13 @@ class Person{
     }
 
     public void setAge(int age) {
-        if(age>0)
+        if (age > 0)
             this.age = age;
-        else System.out.println("Возраст не может быть отрицательным!!");
+        else System.out.println("Р’РѕР·СЂР°СЃС‚ РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹Рј!!");
     }
 
     @Override
     public String toString(){
-        return getName()+" "+getAge()+" лет";
+        return getName() + " " + getAge() + " Р»РµС‚";
     }
 }
