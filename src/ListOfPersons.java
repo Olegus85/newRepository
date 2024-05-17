@@ -70,7 +70,7 @@ class Person{
     public void setAge(int age) {
         if(age>0)
             this.age = age;
-        else System.out.println("¬озраст не может быть отрицательным");
+        else System.out.println("¬озраст не может быть отрицательным!!");
     }
 
     @Override
